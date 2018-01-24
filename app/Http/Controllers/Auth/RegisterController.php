@@ -70,6 +70,7 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'username' => $data['username'],
             'password' => bcrypt($data['password']),
+            'profic' => 'img/profic/profil-def-white.png'
         ]);
     }
 }
